@@ -1,0 +1,3833 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>Learning: Security and Risk Management - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/three-column.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#learning-security-and-risk-management" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Learning: Security and Risk Management
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to MkDocs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning: Security and Risk Management
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning: Security and Risk Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#security-governance-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Governance Principles
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Governance Principles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#canadian-centre-for-cyber-security-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Canadian Centre for Cyber Security Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NIST
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compliance-policies-standards-procedures-and-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compliance, Policies, Standards, Procedures, and Guidelines
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Compliance, Policies, Standards, Procedures, and Guidelines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyber-ethics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cyber Ethics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cyber Ethics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#podcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Podcast:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lectures:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wikipedia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wikipedia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canadian-centre-for-cyber-security-resources_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Canadian Centre for Cyber Security Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-continuity-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Continuity Planning
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Business Continuity Planning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wikipedia_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wikipedia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risk-management-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risk Management Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Risk Management Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wikipedia_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wikipedia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canadian-centre-for-cyber-security-resources_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Canadian Centre for Cyber Security Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#threat-modeling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Threat Modeling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Threat Modeling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wikipedia_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wikipedia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canadian-centre-for-cyber-security-resources_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Canadian Centre for Cyber Security Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supply-chain-risk-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supply Chain Risk Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supply Chain Risk Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nist_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NIST
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us-government" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US Government
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-awareness-and-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Awareness and Training
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Awareness and Training">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wikipedia_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wikipedia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canadian-centre-for-cyber-security-resources_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Canadian Centre for Cyber Security Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ontario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ontario
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#security-governance-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Governance Principles
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Governance Principles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#canadian-centre-for-cyber-security-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Canadian Centre for Cyber Security Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NIST
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compliance-policies-standards-procedures-and-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compliance, Policies, Standards, Procedures, and Guidelines
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Compliance, Policies, Standards, Procedures, and Guidelines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyber-ethics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cyber Ethics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cyber Ethics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#podcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Podcast:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lectures:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wikipedia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wikipedia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canadian-centre-for-cyber-security-resources_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Canadian Centre for Cyber Security Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-continuity-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Continuity Planning
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Business Continuity Planning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wikipedia_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wikipedia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risk-management-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risk Management Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Risk Management Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wikipedia_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wikipedia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canadian-centre-for-cyber-security-resources_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Canadian Centre for Cyber Security Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#threat-modeling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Threat Modeling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Threat Modeling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wikipedia_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wikipedia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canadian-centre-for-cyber-security-resources_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Canadian Centre for Cyber Security Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supply-chain-risk-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supply Chain Risk Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supply Chain Risk Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nist_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NIST
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us-government" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        US Government
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-awareness-and-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Awareness and Training
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Awareness and Training">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-important-for-university-operations_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Is Important for University Operations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-research-and-academic-work_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Research and Academic Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-this-applies-in-everyday-university-activities_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How This Applies in Everyday University Activities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill-development_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skill Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-resources_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Learning Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Videos:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-resources_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Resources:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supplementary Resources:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wikipedia_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wikipedia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canadian-centre-for-cyber-security-resources_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Canadian Centre for Cyber Security Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-vendor-insights_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Vendor Insights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcmaster-university_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McMaster University
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ontario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ontario
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="learning-security-and-risk-management">Learning: Security and Risk Management</h1>
+<div class="page-three-col">
+<div class="toc-left">
+<ul>
+<li><a href="#security-governance-principles">Security Governance Principles</a></li>
+<li><a href="#compliance-policies-standards-procedures-and-guidelines">Compliance, Policies, Standards, Procedures, and Guidelines</a></li>
+<li><a href="#cyber-ethics">Cyber Ethics</a></li>
+<li><a href="#business-continuity-planning">Business Continuity Planning</a></li>
+<li><a href="#risk-management-concepts">Risk Management Concepts</a></li>
+<li><a href="#threat-modeling">Threat Modeling</a></li>
+<li><a href="#supply-chain-risk-management">Supply Chain Risk Management</a></li>
+<li><a href="#security-awareness-and-training">Security Awareness and Training</a></li>
+</ul>
+</div>
+<div class="sections-wrapper">
+<div class="section-grid">
+<h2 class="section-heading" id="security-governance-principles">Security Governance Principles</h2>
+<div class="section-main">
+<h3 id="description">Description</h3>
+<p>Security governance involves creating the structures and processes to align security initiatives with organizational goals. It's important because strong governance ensures that security efforts are consistent, strategic, and measurable.</p>
+<h3 id="why-this-matters">Why This Matters</h3>
+<p>Security Governance Principles provide the foundation for how an institution makes informed, consistent, and accountable decisions about cybersecurity. These principles guide how risks are identified, how responsibilities are assigned, and how security supports the broader academic mission not just IT operations.</p>
+<h3 id="why-this-is-important-for-university-operations">Why This Is Important for University Operations</h3>
+<p>Universities rely on a wide range of digital services, learning platforms, HR systems, research databases, student records, finance tools, and more. Security governance principles ensure that these systems are protected through clear leadership structures, defined roles, transparent decision-making, and standardized policies. When governance is strong, the university can balance security needs with operational efficiency, reduce service interruptions, and respond quickly to emerging threats.</p>
+<h3 id="why-this-matters-for-research-and-academic-work">Why This Matters for Research and Academic Work</h3>
+<p>Research environments require flexible tools, external collaborations, and access to advanced technologies such as AI and high performance computing. Security governance principles help researchers operate safely by:</p>
+<ul>
+<li>Providing frameworks for data classification and handling</li>
+<li>Supporting compliance with ethics and funding requirements</li>
+<li>Ensuring consistent risk assessments for new tools or platforms</li>
+<li>Protecting sensitive or proprietary research data</li>
+</ul>
+<p>With governance guiding these decisions, researchers can innovate while maintaining confidentiality, integrity, and availability of their work.</p>
+<h3 id="how-this-applies-in-everyday-university-activities">How This Applies in Everyday University Activities</h3>
+<p>Security governance principles influence daily behavior across campus:</p>
+<ul>
+<li>Staff follow governance based workflows for approving system changes, granting access, reporting incidents, and ensuring that operational practices align with institutional security standards.</li>
+<li>Researchers rely on governance when choosing tools, storing data, managing collaborations, and maintaining research compliance.</li>
+<li>Students interact with governance through acceptable-use policies, multi factor authentication requirements, responsible use of AI tools, and safe data-handling expectations.</li>
+</ul>
+<h3 id="skill-development">Skill Development</h3>
+<ol>
+<li>Can you describe McMaster's IT Governance process to a non-technical stakeholder?</li>
+<li>From an information security perspective, can you describe ways in which a project or operational portfolio benefits from (or could benefit from) IT Governance?</li>
+<li>How does (or could) your role support IT Governance in service to campus data confidentiality and integrity, and/or service availability?</li>
+</ol>
+</div>
+<div class="section-resources">
+<h3 id="learning-resources">Learning Resources</h3>
+<h4 id="videos">Videos:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20security%20governance&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;facet=rtype%2cinclude%2cvideos&amp;lang=en&amp;mode=basic&amp;offset=0">McMaster Library</a></li>
+</ul>
+<h4 id="books">Books:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?vid=01OCUL_MU:OMNI&amp;tab=OCULDiscoveryNetwork&amp;mode=basic&amp;lang=en&amp;displayMode=full&amp;bulkSize=10&amp;highlight=true&amp;dum=true&amp;query=any%2ccontains%2cinformation%20security%20governance&amp;displayField=all&amp;search_scope=OCULDiscoveryNetwork&amp;pcAvailabiltyMode=true">McMaster Library</a></li>
+<li><a href="https://learning.oreilly.com/search/?q=Security%20governance&amp;rows=100">O'Reilly</a></li>
+</ul>
+<h4 id="supplementary-resources">Supplementary Resources:</h4>
+<h5 id="canadian-centre-for-cyber-security-resources">Canadian Centre for Cyber Security Resources</h5>
+<ul>
+<li><a href="https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33">IT Security Risk Management: A Lifecycle Approach (ITSG-33)</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/baseline-cyber-security-controls-small-and-medium-organizations">Baseline Cyber Security Controls for Small and Medium Organizations</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/zero-trust-approach-security-architecture-itsm10008">A Zero Trust Approach to Security Architecture (ITSM.10.008)</a></li>
+</ul>
+<h5 id="nist">NIST</h5>
+<ul>
+<li><a href="https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-100.pdf">NIST: Information Security Handbook: A Guide for Managers</a></li>
+</ul>
+<h5 id="security-vendor-insights">Security Vendor Insights</h5>
+<ul>
+<li><a href="https://www.cisco.com/c/en/us/products/security/cisco-security-reference-architecture.html">Cisco Security Reference Architecture (SRA)</a></li>
+<li><a href="https://www.fortinet.com/content/dam/fortinet/assets/white-papers/wp-security-rating-service.pdf">Fortinet Proactive, Actionable Risk Management with the Fortinet Security Rating Service</a></li>
+<li><a href="https://docs.paloaltonetworks.com/best-practices/security-policy-best-practices">Palo Alto Networks Security Policy Best Practices</a></li>
+</ul>
+<h5 id="mcmaster-university">McMaster University</h5>
+<ul>
+<li><a href="https://cto.mcmaster.ca/it-governance/it-governance-at-mcmaster/">McMaster IT Governance</a></li>
+<li><a href="https://teams.microsoft.com/l/team/19:96dc0079f1b4465f9c6481ac83fda81d%40thread.tacv2/conversations?groupId=423b0d01-bcf9-48b5-b899-2daac7c401fa&amp;tenantId=44376307-b429-42ad-8c25-28cd496f4772">McMaster IT Governance Teams space</a></li>
+<li><a href="https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/Important-Policies,-Procedures-and-Guidelines.aspx">Policies and procedures APD-1280 page</a></li>
+</ul>
+</div>
+</div>
+<div class="section-grid">
+<h2 class="section-heading" id="compliance-policies-standards-procedures-and-guidelines">Compliance, Policies, Standards, Procedures, and Guidelines</h2>
+<div class="section-main">
+<h3 id="description_1">Description</h3>
+<p>Policies set the rules, standards outline requirements, procedures explain how to do things, and guidelines offer recommendations. They're the backbone of a strong security program.</p>
+<p>Compliance ensures that an organization meets the standards set by industry regulations, laws, or contractual obligations. Studying compliance is critical because non-compliance can result in legal penalties, financial loss, and reputational damage.</p>
+<p>This includes understanding laws, regulations, and legal concepts like privacy laws, intellectual property rights, and liability. It's important to study because security measures must align with legal obligations to protect both the organization and its stakeholders.</p>
+<h3 id="why-this-matters_1">Why This Matters</h3>
+<p>A strong security program depends on clear policies, standards, procedures, guidelines, and effective compliance practices. These components define expectations, outline required controls, and ensure the university meets legal, regulatory, and contractual obligations. Without them, security becomes inconsistent, unpredictable, and difficult to enforce across a large academic environment.</p>
+<h3 id="why-this-is-important-for-university-operations_1">Why This Is Important for University Operations</h3>
+<p>Universities operate within complex digital ecosystems involving student data, research systems, financial transactions, healthcare partnerships, cloud services, and third-party vendors.
+Compliance frameworks and well-defined policy structures help the university:</p>
+<ul>
+<li>Meet legal and regulatory requirements such as privacy laws</li>
+<li>Protect sensitive institutional and personal information</li>
+<li>Maintain stable, secure, and available IT services</li>
+<li>Reduce operational, financial, and reputational risk</li>
+<li>Clear policies and procedures ensure that IT staff understand how to configure systems, handle data, manage access, and respond to incidents securely and consistently across departments.</li>
+</ul>
+<h3 id="why-this-matters-for-research-and-academic-work_1">Why This Matters for Research and Academic Work</h3>
+<p>Research activities often involve sensitive datasets, international collaboration, funding-agency requirements, intellectual property protections, and ethical obligations. Compliance and policy frameworks support researchers by:</p>
+<ul>
+<li>Defining rules for data classification, storage, and controlled sharing</li>
+<li>Ensuring adherence to privacy legislation, grant conditions, and contract terms</li>
+<li>Protecting intellectual property, proprietary datasets, and publication rights</li>
+<li>Supporting the secure use of AI tools, cloud platforms, and high-performance computing</li>
+<li>These structures help research teams innovate confidently while minimizing legal, ethical, and cybersecurity risks.</li>
+</ul>
+<h3 id="how-this-applies-in-everyday-university-activities_1">How This Applies in Everyday University Activities</h3>
+<p>Compliance, policies, standards, procedures, and guidelines shape the daily responsibilities of staff, researchers, and students:</p>
+<ul>
+<li>Staff rely on procedures for access management, procurement, incident response, system configuration, and safe data handling. Policies and standards guide their decisions to support confidentiality, integrity, and service availability.</li>
+<li>Researchers use policy frameworks when storing or sharing sensitive information, collaborating across institutions, selecting digital tools, and meeting grant or ethics requirements. Compliance ensures their work remains legally and ethically sound.</li>
+<li>Students interact with policies through acceptable-use rules, privacy protections, academic integrity expectations, and guidelines for responsible use of university systems and emerging technologies such as AI. These frameworks help students understand how to protect their own information and use campus resources safely.</li>
+<li>These governance components create a consistent, transparent foundation that supports cybersecurity, operational reliability, legal compliance, and a safe digital environment for the entire university community.</li>
+</ul>
+<h3 id="skill-development_1">Skill Development</h3>
+<ol>
+<li>Can you describe IT infrastructure or duties in our environment that are governed by: A) regulations, B) laws, and C) contractual obligations?  Where do different IT policies apply to your work?</li>
+<li>What are the different roles associated with compliance to A) regulations, B) laws, and C) contractual obligations? Consider your response through lenses of privacy, data confidentiality, data integrity, and service availability.</li>
+<li>What are the different IT Security standards, procedures, and guidelines that affect your role? Who is responsible for setting and maintaining them? These may be formal (written) or informal (operationalized, but not documented).</li>
+</ol>
+</div>
+<div class="section-resources">
+<h3 id="learning-resources_1">Learning Resources</h3>
+<h4 id="videos_1">Videos:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20security%20compliance%2cOR&amp;query=any%2ccontains%2cinformation%20security%20policies%2cOR&amp;query=any%2ccontains%2cdeveloping%20information%20security%20standards%2cOR&amp;query=any%2ccontains%2cdeveloping%20information%20security%20guidelines%2cAND&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;mfacet=rtype%2cinclude%2cvideos%2c1&amp;lang=en&amp;mode=advanced&amp;offset=0">McMaster Libary</a></li>
+</ul>
+<h4 id="books_1">Books:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20security%20compliance%2cOR&amp;query=any%2ccontains%2cinformation%20security%20policies%2cOR&amp;query=any%2ccontains%2cdeveloping%20information%20security%20standards%2cOR&amp;query=any%2ccontains%2cdeveloping%20information%20security%20guidelines%2cAND&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;lang=en&amp;mode=advanced&amp;offset=0">McMaster Library</a></li>
+<li><a href="https://www.oreilly.com/search/?q=Compliance%2c%20policies%2c%20standards%2c%20procedures%2c%20and%20guidelines&amp;type=book&amp;rows=100">O'Reilly</a></li>
+</ul>
+<h4 id="supplementary-resources_1">Supplementary Resources:</h4>
+<ul>
+<li><a href="https://secretariat.mcmaster.ca/privacy/">Secretariat (Privacy) website</a></li>
+<li><a href="https://secretariat.mcmaster.ca/university-policies-procedures-guidelines/">McMaster Secretariat (policy)</a></li>
+<li><a href="https://resourcehub.bakermckenzie.com/en/resources/global-data-privacy-and-cybersecurity-handbook/north-america/canada/topics/key-data-privacy-and-cybersecurity-laws">Baker McKenzie: Key Data Privacy and Cybersecurity Laws</a></li>
+<li><a href="https://informationsecurity.mcmaster.ca/training/">McMaster Information Security Training</a></li>
+<li><a href="https://mcmasteru365-my.sharepoint.com/:w:/r/personal/atkinsgj_mcmaster_ca/Documents/Projects/IS%20Training%20Program/PCI-DSS%20-%20Shared/2023-11%20-%20PCI-DSS%20Training%20-%20Shared.docx?d=we286886cfb454c7c83629545da258a51&amp;csf=1&amp;web=1&amp;e=aPd71e">PCI-DSS training document</a></li>
+</ul>
+</div>
+</div>
+<div class="section-grid">
+<h2 class="section-heading" id="cyber-ethics">Cyber Ethics</h2>
+<div class="section-main">
+<h3 id="description_2">Description</h3>
+<p>Cyber ethics involves understanding and applying ethical principles in security decisions. It helps staff understand emerging phenomena to develop practical wisdom. The digital age presents unprecedented ethical challenges, such as artificial intelligence, data privacy, and digital surveillance. Cyber ethics helps us understand these issues through different ethical principles in new contexts.</p>
+<h3 id="why-this-matters_2">Why This Matters</h3>
+<p>Cyber ethics is essential because decisions made in digital environments have real-world consequences for privacy, fairness, security, and trust across the university. As technologies such as AI, automation, surveillance tools, and large-scale data collection evolve, ethical reflection helps ensure that our security practices protect people, respect rights, and avoid unintended harm. Ethical considerations support responsible technology use across campus and reinforce the university's commitment to transparency and accountability.</p>
+<h3 id="why-this-is-important-for-university-operations_2">Why This Is Important for University Operations</h3>
+<p>University operations rely on technologies that collect and process personal, academic, and operational data. Ethical decision making helps the university:</p>
+<ul>
+<li>Respect privacy while maintaining strong security controls</li>
+<li>Use monitoring, analytics, and AI tools responsibly</li>
+<li>Apply security measures in a fair and transparent way</li>
+<li>Build confidence in the university's digital environment</li>
+<li>Cyber ethics supports staff as they navigate complex decisions about how security tools and practices impact the broader community.</li>
+</ul>
+<h3 id="why-this-matters-for-research-and-academic-work_2">Why This Matters for Research and Academic Work</h3>
+<p>Modern research involves large datasets, artificial intelligence, automated decision-making, and international collaboration. Ethical considerations help research teams:</p>
+<ul>
+<li>Protect participants' data and identity</li>
+<li>Identify and reduce algorithmic or dataset bias</li>
+<li>Evaluate the impact of research outcomes on individuals or communities</li>
+<li>Balance innovation with responsibility, consent, and transparency</li>
+<li>Ethical reflection strengthens the integrity of research and helps ensure that technological advancements do not create unintended risks.</li>
+</ul>
+<h3 id="how-this-applies-in-everyday-university-activities_2">How This Applies in Everyday University Activities</h3>
+<p>Cyber ethics influences the daily actions of staff, researchers, and students:</p>
+<ul>
+<li>Staff make ethical choices when implementing monitoring tools, accessing sensitive information, or deciding how much visibility security systems should have into user activity.</li>
+<li>Researchers consider ethics when collecting data, using AI models, collaborating internationally, or publishing findings that may influence society or vulnerable groups.</li>
+<li>Students engage with ethical considerations through digital citizenship expectations, privacy choices, AI-assisted work, and understanding how their online behavior affects others.</li>
+<li>By integrating ethical thinking into everyday decisions, the university promotes a secure, respectful, and trustworthy digital environment for the entire campus community.</li>
+</ul>
+<h3 id="skill-development_2">Skill Development</h3>
+<ol>
+<li>Can you find, or imagine, a contemporary information security challenge that warrants ethical reflection and discussion? Could you describe to a lay-person how different ethical frameworks might interpret the challenge, and what this could mean for different stakeholders in practical terms?</li>
+</ol>
+</div>
+<div class="section-resources">
+<h3 id="learning-resources_2">Learning Resources</h3>
+<h4 id="videos_2">Videos:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cCyber%20ethics&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;mfacet=rtype%2cinclude%2cvideos%2c1&amp;lang=en&amp;offset=0">McMaster Library</a></li>
+</ul>
+<h4 id="books_2">Books:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cCyber%20ethics&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;lang=en&amp;offset=0">McMaster Library</a></li>
+<li><a href="https://www.oreilly.com/search/?q=Cyber%20ethics&amp;type=book&amp;rows=100">O'Reilly</a></li>
+</ul>
+<h4 id="podcast">Podcast:</h4>
+<ul>
+<li><a href="https://open.spotify.com/show/6qG8baWCDwosUKL0Vab4HW?si=158c315291064a8c">The CyberEthics Podcast</a></li>
+</ul>
+<h4 id="lectures">Lectures:</h4>
+<ul>
+<li><a href="https://ocw.mit.edu/courses/24-131-ethics-of-technology-spring-2023/pages/readings/">MIT: Ethics of Technology (Course Readings)</a></li>
+<li><a href="https://ocw.mit.edu/courses/10-01-ethics-for-engineers-artificial-intelligence-spring-2020/pages/readings-and-viewings/">MIT: Ethics for Engineers: Artificial Intelligence (Course Readings)</a></li>
+<li><a href="https://www.youtube.com/watch?v=wmyVODy_WD8&amp;list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&amp;index=19">MIT 6.S191: AI Bias and Fairness</a></li>
+<li><a href="https://ocw.mit.edu/courses/res-10-002-ethics-of-ai-bias-spring-2023/pages/video/">MIT: Ethics of AI Bias (Lecture Video)</a></li>
+<li><a href="https://ocw.mit.edu/courses/6-805-ethics-and-the-law-on-the-electronic-frontier-fall-2005/pages/readings/">MIT: Ethics and the Law on the Electronic Frontier (Course Readings)</a></li>
+</ul>
+<h4 id="supplementary-resources_2">Supplementary Resources:</h4>
+<h5 id="wikipedia">Wikipedia</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Cyberethics">Cyberethics</a></li>
+</ul>
+<h5 id="canadian-centre-for-cyber-security-resources_1">Canadian Centre for Cyber Security Resources</h5>
+<ul>
+<li><a href="https://www.cyber.gc.ca/en/education-community/learning-hub">Learning Hub - Cyber Skills &amp; Ethics Competencies</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/certifications-field-cyber-security">Certifications in Cyber Security CEH Ethical Hacking</a></li>
+</ul>
+<h5 id="security-vendor-insights_1">Security Vendor Insights</h5>
+<ul>
+<li><a href="https://gblogs.cisco.com/ca/2014/07/24/increasing-ethics-training-is-the-answer-to-cyberthreats/">Cisco Increasing Ethics Training is the Answer to Cyber Threats</a></li>
+<li><a href="https://investor.fortinet.com/static-files/699b8eb6-1c88-49b4-8235-f07b0820f16c">Fortinet Code of Business Conduct and Ethics</a></li>
+<li><a href="https://www.paloaltonetworks.com/company/ethics-and-compliance">Palo Alto Networks Ethics and Compliance - Corporate Policies</a></li>
+</ul>
+<h5 id="mcmaster-university_1">McMaster University</h5>
+<ul>
+<li><a href="https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/Cyber-Ethics.aspx">APD-1280 Cyber Ethics page</a></li>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2ccyber%20ethics&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;lang=en&amp;offset=0">McMaster Library</a></li>
+</ul>
+</div>
+</div>
+<div class="section-grid">
+<h2 class="section-heading" id="business-continuity-planning">Business Continuity Planning</h2>
+<div class="section-main">
+<h3 id="description_3">Description</h3>
+<p>This involves preparing for and responding to incidents that could disrupt business operations, such as cyberattacks, infrastructure failure, key-person loss, or natural disasters. It's vital because it ensures the organization can continue functioning during and after crises.</p>
+<h3 id="why-this-matters_3">Why This Matters</h3>
+<p>Business continuity planning is essential because disruptions such as cyberattacks, system failures, natural disasters, or loss of key personnel can affect teaching, research, and university operations. Continuity planning ensures that critical systems and services remain available, allowing staff, researchers, and students to continue their work without major interruptions. It strengthens the university's resilience and protects the productivity, safety, and trust of the campus community.</p>
+<h3 id="why-this-is-important-for-university-operations_3">Why This Is Important for University Operations</h3>
+<p>University operations rely on a range of critical systems, including email, learning platforms, payroll, scheduling, administrative tools, and facility access systems. Business continuity planning helps the university:</p>
+<p>Maintain access to core IT services during disruptions
+Recover quickly from system failures or cyber incidents
+Minimize operational downtime and service interruptions
+Provide clear procedures for staff to follow in emergencies
+Planning ensures that staff know how to respond efficiently, reduce risk, and keep essential workflows running during unexpected events.</p>
+<h3 id="why-this-matters-for-research-and-academic-work_3">Why This Matters for Research and Academic Work</h3>
+<p>Research activities often involve long running experiments, sensitive datasets, specialized equipment, and international collaboration. Business continuity planning helps research teams:</p>
+<p>Protect datasets and experiments from loss or interruption
+Ensure access to critical research systems and computing resources
+Meet grant, ethics, and project deadlines despite unforeseen disruptions
+Support collaboration and data sharing continuity across teams
+Continuity planning enables researchers to maintain progress and preserve the integrity of their work even during crises.</p>
+<h3 id="how-this-applies-in-everyday-university-activities_3">How This Applies in Everyday University Activities</h3>
+<p>Business continuity planning shapes the daily actions of staff, researchers, and students:</p>
+<p>Staff follow recovery procedures for system failures, data loss, or security incidents and ensure that essential services remain operational.
+Researchers implement backup processes, alternative workflows, and contingency plans to keep experiments and data accessible.
+Students continue to access course materials, submit assignments, and use digital learning tools during service interruptions, while following guidance for personal device backups and secure access.
+By embedding continuity planning into daily operations, the university ensures resilience, reduces disruption, and keeps staff, researchers, and students productive during unexpected events.</p>
+<h3 id="skill-development_3">Skill Development</h3>
+<ol>
+<li>Think of a critical system for your stakeholders. If it were to suddenly become unavailable due to [insert cause], how would [insert role] help ensure that students, faculty, and staff can continue their essential activities without significant disruption?</li>
+</ol>
+</div>
+<div class="section-resources">
+<h3 id="learning-resources_3">Learning Resources</h3>
+<h4 id="videos_3">Videos:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cBusiness%20continuity%20planning&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;mfacet=rtype%2cinclude%2cvideos%2c1&amp;lang=en&amp;offset=0">McMaster Library</a></li>
+<li><a href="https://learning.oreilly.com/course/business-continuity-and/9781836203032/">Business Continuity and Disaster Recovery (5hrs)</a></li>
+</ul>
+<h4 id="books_3">Books:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20technology%20business%20continuity%20planning&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;lang=en&amp;offset=0">McMaster Library</a></li>
+<li><a href="https://www.oreilly.com/search/?q=Business%20continuity%20planning&amp;rows=100">O'Reilly</a></li>
+<li><a href="https://learning.oreilly.com/library/view/isc2-cissp-certified/9781394254699/c03.xhtml">CISSP Study Guide (Business Continuity Planning)</a></li>
+<li><a href="https://learning.oreilly.com/library/view/business-continuity-for/9781118326800/">Business Continuity for Dummies</a></li>
+<li><a href="https://learning.oreilly.com/library/view/business-continuity-and/9780124105263/">Business Continuity and Disaster Recovery Planning for IT Professionals, 2nd Edition</a></li>
+</ul>
+<h4 id="supplementary-resources_3">Supplementary Resources:</h4>
+<h5 id="wikipedia_1">Wikipedia</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Business_continuity_planning">Business Continuity Planning</a></li>
+<li>Canadian Centre for Cyber Security Resources</li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/developing-your-it-recovery-plan-itsap40004">Developing Your IT Recovery Plan (ITSAP.40.004)</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/baseline-cyber-security-controls-small-and-medium-organizations">Baseline Cyber Security Controls for Small and Medium Organizations</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/transitioning-cyber-resilience-approach-itsap10190">Transitioning to a Cyber Resilience Approach (ITSAP.10.190)</a></li>
+</ul>
+<h5 id="security-vendor-insights_2">Security Vendor Insights</h5>
+<ul>
+<li><a href="https://www.cisco.com/c/en/us/about/business-continuity.html">Cisco Business Continuity</a></li>
+<li><a href="https://www.cisco.com/site/us/en/learn/topics/security/what-is-disaster-recovery.html">Cisco What Is Disaster Recovery?</a></li>
+<li><a href="https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-secure-remote-access-for-your-workforce-at-scale.pdf">Fortinet Secure Remote Access for Your Workforce at Scale</a></li>
+</ul>
+</div>
+</div>
+<div class="section-grid">
+<h2 class="section-heading" id="risk-management-concepts">Risk Management Concepts</h2>
+<div class="section-main">
+<h3 id="description_4">Description</h3>
+<p>Risk management is the systematic process of identifying, analyzing, and responding to potential threats or vulnerabilities that could harm an organization's assets, operations, or reputation. It encompasses both proactive and reactive strategies, aiming to minimize the likelihood and impact of risks. Understanding this is critical because risk management, as a deliberate activity, helps prioritize resources to address the most significant risks.</p>
+<h3 id="why-this-matters_4">Why This Matters</h3>
+<p>Risk management is essential because potential threats ranging from cyberattacks and system failures to human error or supply chain vulnerabilities can disrupt university operations, research, and the safety of data. By systematically identifying, analyzing, and addressing risks, the university ensures that resources are prioritized to mitigate the most significant threats, maintaining continuity, security, and trust across the campus community.</p>
+<h3 id="why-this-is-important-for-university-operations_4">Why This Is Important for University Operations</h3>
+<p>University operations rely on numerous systems and services that support teaching, administration, student records, financial management, and campus infrastructure. Risk management helps the university:</p>
+<ul>
+<li>Identify potential vulnerabilities before they become incidents</li>
+<li>Analyze the impact and likelihood of risks to prioritize responses</li>
+<li>Implement proactive controls to prevent disruptions</li>
+<li>Respond effectively to incidents to minimize downtime and damage</li>
+<li>By embedding risk management practices, staff can make informed decisions that protect institutional assets, ensure service reliability, and maintain operational efficiency.</li>
+</ul>
+<h3 id="why-this-matters-for-research-and-academic-work_4">Why This Matters for Research and Academic Work</h3>
+<p>Research activities often involve sensitive data, specialized equipment, and collaborations with external partners. Risk management supports researchers by:</p>
+<ul>
+<li>Assessing threats to datasets, experiments, and intellectual property</li>
+<li>Evaluating the impact of new technologies, software, or research tools</li>
+<li>Mitigating risks that could delay projects, compromise results, or violate compliance requirements</li>
+<li>Guiding decisions about secure data sharing and collaborative practices</li>
+<li>Effective risk management ensures that research can continue safely, even in the face of technical, operational, or environmental challenges.</li>
+</ul>
+<h3 id="how-this-applies-in-everyday-university-activities_4">How This Applies in Everyday University Activities</h3>
+<p>Risk management influences the daily responsibilities of staff, researchers, and students:</p>
+<ul>
+<li>Staff evaluate systems and processes to identify vulnerabilities, implement safeguards, and respond to incidents in ways that minimize impact on university operations.</li>
+<li>Researchers assess risks when using new technologies, sharing data, or conducting experiments, ensuring that ethical, legal, and operational considerations are addressed.</li>
+<li>Students contribute by following secure practices, reporting potential issues, and understanding the risks associated with their use of university systems and digital resources.</li>
+<li>By integrating risk management into daily activities, the university reduces the likelihood and impact of disruptions, enabling staff, researchers, and students to work safely, effectively, and confidently across all campus operations.</li>
+</ul>
+<h3 id="skill-development_4">Skill Development</h3>
+<ol>
+<li>Imagine a new system, service, or technology that you wish to help introduce. Using the Information Security Assessment questions on this website, which do you feel are most salient to ask?</li>
+<li>How do you contribute to the understanding and management of risk for different systems, services, or technologies? What are your strengths, and areas of improvement for risk management?</li>
+</ol>
+</div>
+<div class="section-resources">
+<h3 id="learning-resources_4">Learning Resources</h3>
+<h4 id="videos_4">Videos:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cRisk%20management%20concepts&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;mfacet=rtype%2cinclude%2cvideos%2c1&amp;lang=en&amp;offset=0">McMaster Library</a></li>
+<li><a href="https://learning.oreilly.com/course/cybersecurity-risk-management/0636920973287/">Cybersecurity Risk Management: Identify, Analyze, and Mitigate Threats to Inform Business Decisions (5hrs)</a></li>
+<li><a href="https://learning.oreilly.com/course/risk-management-for/9781837639878/">Risk Management for Cyber Security Managers (2hrs)</a></li>
+<li><a href="https://learning.oreilly.com/course/nist-cybersecurity-and/9781835886502/">NIST Cybersecurity and Risk Management Frameworks (2hrs)</a></li>
+</ul>
+<h4 id="books_4">Books:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2crisk%20management%20IT%20security&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;lang=en&amp;offset=0">McMaster Library</a></li>
+<li><a href="https://www.oreilly.com/search/?q=Risk%20management%20concepts&amp;type=book&amp;rows=100">O'Reilly</a></li>
+<li><a href="https://learning.oreilly.com/library/view/mastering-risk-management/9781292331300/">Mastering Risk Management</a></li>
+<li><a href="https://learning.oreilly.com/library/view/cybersecurity-risk-management/9781119816287/">Cybersecurity Risk Management</a></li>
+<li><a href="https://learning.oreilly.com/library/view/the-essentials-of/9781264258871/">The Essentials of Risk Management, Third Edition, 3rd Edition</a></li>
+<li><a href="https://learning.oreilly.com/library/view/building-a-cyber/9781098147785/">Building a Cyber Risk Management Program</a></li>
+<li><a href="https://learning.oreilly.com/library/view/unveiling-the-nist/9781835089842/">Unveiling the NIST Risk Management Framework (RMF)</a></li>
+</ul>
+<h4 id="supplementary-resources_4">Supplementary Resources:</h4>
+<h5 id="wikipedia_2">Wikipedia</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Risk_management">Risk Management</a></li>
+</ul>
+<h5 id="canadian-centre-for-cyber-security-resources_2">Canadian Centre for Cyber Security Resources</h5>
+<ul>
+<li><a href="https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33">IT Security Risk Management: A Lifecycle Approach (ITSG-33)</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/cloud-security-risk-management-itsm50062">Cloud Security Risk Management (ITSP.50.062)</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/cyber-supply-chain-approach-assessing-risk-itsap10070">Cyber-Supply Chain: An Approach to Assessing Risk (ITSAP.10.070)</a></li>
+</ul>
+<h5 id="security-vendor-insights_3">Security Vendor Insights</h5>
+<ul>
+<li><a href="https://www.cisco.com/c/en/us/products/security/what-is-risk-management.html">Cisco What Is Risk Management?</a></li>
+<li><a href="https://www.cisco.com/c/dam/en/us/products/collateral/security/nist-cybersecurity.pdf">Cisco Secure and the NIST Cybersecurity Framework</a></li>
+<li><a href="https://www.fortinet.com/blog/industry-trends/cyber-risk-management-lessons-from-the-battlefield">Fortinet Cyber Risk Management Lessons from the Battlefield</a></li>
+<li><a href="https://www.paloaltonetworks.com/resources/datasheets/unit42-cyber-risk-management">Palo Alto Networks Unit 42 Cyber Risk Management Services</a></li>
+</ul>
+<h5 id="mcmaster-university_2">McMaster University</h5>
+<ul>
+<li><a href="https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/Information-Security-Assessments.aspx">Information Security Assessments (APD-1280)</a></li>
+</ul>
+</div>
+</div>
+<div class="section-grid">
+<h2 class="section-heading" id="threat-modeling">Threat Modeling</h2>
+<div class="section-main">
+<h3 id="description_5">Description</h3>
+<p>Threat modeling involves identifying potential threats, understanding how they might exploit vulnerabilities, and determining how to defend against them. It's key to proactively addressing risks before they lead to incidents.</p>
+<h3 id="why-this-matters_5">Why This Matters</h3>
+<p>Threat modeling is essential because understanding potential threats before they occur allows the university to proactively protect critical systems, data, and operations. By identifying vulnerabilities and anticipating how they could be exploited, staff, researchers, and students can implement controls that reduce the likelihood and impact of incidents, keeping campus technology safe, reliable, and trustworthy.</p>
+<h3 id="why-this-is-important-for-university-operations_5">Why This Is Important for University Operations</h3>
+<p>University operations depend on a wide range of systems and services, from learning platforms and research databases to administrative and communication tools. Threat modeling helps the university:</p>
+<p>Identify possible attack vectors or system weaknesses
+Prioritize defenses for the most critical assets
+Reduce the risk of disruptions caused by cyberattacks or operational failures
+Ensure coordinated response planning across departments
+By applying threat modeling, staff can make informed decisions to protect institutional assets and maintain continuity and security across all operations.</p>
+<h3 id="why-this-matters-for-research-and-academic-work_5">Why This Matters for Research and Academic Work</h3>
+<p>Research projects often rely on sensitive data, collaborative platforms, specialized software, and high-performance computing environments. Threat modeling supports researchers by:</p>
+<p>Anticipating threats to data confidentiality, integrity, and availability
+Evaluating risks from new technologies or external collaborations
+Designing proactive mitigation strategies for potential security incidents
+Integrating security considerations into project planning and experimental workflows
+This approach ensures that research can proceed safely and reliably, even when complex systems or sensitive information are involved.</p>
+<h3 id="skill-development_5">Skill Development</h3>
+<ol>
+<li>Imagine a new system, service, or technology: can you describe how different roles contribute to modeling threats that might affect confidentiality, integrity, or availability?</li>
+<li>Imagine a project or operational responsibility. How would you plan a threat modeling exercise? Which parties should be present, what is a reasonable level of detail, and what are the steps required to produce a report?</li>
+<li>Imagine a project or operational responsibility. Using the APD-1280 Security Assessments page, which questions would help inform threat modeling work? How could you action those questions, or build on them to produce a report?</li>
+</ol>
+</div>
+<div class="section-resources">
+<h3 id="learning-resources_5">Learning Resources</h3>
+<h4 id="videos_5">Videos:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cThreat%20modeling&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;mfacet=rtype%2cinclude%2cvideos%2c1&amp;lang=en&amp;offset=0">McMaster Library</a></li>
+<li><a href="https://learning.oreilly.com/videos/threat-modeling-with/10000MNHV202248/10000MNHV202248-aaaaa/">Threat Modeling with Owasp Threat Dragon &amp; Risk Rating a Vulnerability</a></li>
+<li><a href="https://learning.oreilly.com/course/threat-modeling-fundamentals/0790145436108/">Threat Modeling Fundamentals: Debug Your Security Design through Whiteboard Hacking</a></li>
+</ul>
+<h4 id="books_5">Books:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20security%20threat%20modeling&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI">McMaster Library</a></li>
+<li><a href="https://www.oreilly.com/search/?q=Threat%20modeling&amp;type=book&amp;rows=100">O'Reilly</a></li>
+<li><a href="https://learning.oreilly.com/library/view/risk-centric-threat/9780470500965/">Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis</a></li>
+<li><a href="https://learning.oreilly.com/library/view/threat-modeling/9781118810057/">Threat Modeling</a></li>
+<li><a href="https://learning.oreilly.com/library/view/threat-modeling/9781492056546/">Threat Modeling: A practical guide for development teams</a></li>
+</ul>
+<h4 id="supplementary-resources_5">Supplementary Resources:</h4>
+<h5 id="wikipedia_3">Wikipedia</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Threat_model">Threat Model</a></li>
+</ul>
+<h5 id="canadian-centre-for-cyber-security-resources_3">Canadian Centre for Cyber Security Resources</h5>
+<ul>
+<li><a href="https://www.cyber.gc.ca/en/tools-services/harmonized-tra-methodology">Harmonized Threat and Risk Assessment Methodology (TRA-1)</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/defending-against-data-exfiltration-threats-itsm40110">Defending Against Data Exfiltration Threats (ITSM.40.110)</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/threat-large-language-model-text-generators">The Threat from Large Language Model Text Generators</a></li>
+</ul>
+<h5 id="security-vendor-insights_4">Security Vendor Insights</h5>
+<ul>
+<li><a href="https://www.cisco.com/c/en/us/products/security/what-is-threat-modeling.html">Cisco What Is Threat Modeling?</a></li>
+<li><a href="https://blogs.cisco.com/security/the-need-for-continuous-and-dynamic-threat-modeling">Cisco The Need for Continuous and Dynamic Threat Modeling</a></li>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html">Threat Modeling - OWASP Cheat Sheet</a></li>
+<li><a href="https://owasp.org/www-project-threat-dragon/">OWASP Threat Dragon</a></li>
+</ul>
+<h5 id="mcmaster-university_3">McMaster University</h5>
+<ul>
+<li><a href="https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/Information-Security-Assessments.aspx">APD-1280 - Security Assessments</a></li>
+</ul>
+</div>
+</div>
+<div class="section-grid">
+<h2 class="section-heading" id="supply-chain-risk-management">Supply Chain Risk Management</h2>
+<div class="section-main">
+<h3 id="description_6">Description</h3>
+<p>This focuses on managing risks associated with suppliers, vendors, and other third parties. It's important because vulnerabilities in the supply chain can compromise an organization's security.</p>
+<h3 id="why-this-matters_6">Why This Matters</h3>
+<p>Supply chain risk management is essential because vulnerabilities in suppliers, vendors, or third-party services can compromise university systems, data, and operations. By proactively identifying and addressing these risks, the university ensures that critical services remain secure, reliable, and trustworthy, even when external dependencies are involved.</p>
+<h3 id="why-this-is-important-for-university-operations_6">Why This Is Important for University Operations</h3>
+<p>University operations depend on a network of suppliers and third-party services, including software vendors, cloud providers, and equipment suppliers. Supply chain risk management helps the university:</p>
+<ul>
+<li>Identify risks posed by external partners and service providers</li>
+<li>Evaluate the security and reliability of software, hardware, and services</li>
+<li>Implement controls to prevent disruptions caused by compromised third parties</li>
+<li>Maintain continuity and trust across critical operational systems</li>
+<li>By managing supply chain risks, staff can protect institutional assets and ensure that essential services continue to function safely and effectively.</li>
+</ul>
+<h3 id="why-this-matters-for-research-and-academic-work_6">Why This Matters for Research and Academic Work</h3>
+<p>Research projects often rely on third-party tools, open-source software, cloud platforms, and collaborative services. Supply chain risk management supports researchers by:</p>
+<ul>
+<li>Assessing potential vulnerabilities in software, hardware, or data services</li>
+<li>Protecting sensitive datasets and experimental results from compromise</li>
+<li>Ensuring compliance with funding, privacy, and ethical requirements</li>
+<li>Reducing the likelihood that external dependencies disrupt ongoing projects</li>
+<li>Effective supply chain risk management helps research teams maintain the integrity, security, and continuity of their work.</li>
+</ul>
+<h3 id="how-this-applies-in-everyday-university-activities_5">How This Applies in Everyday University Activities</h3>
+<p>Supply chain risk management shapes the daily responsibilities of staff, researchers, and students:</p>
+<ul>
+<li>Staff evaluate suppliers, software updates, and third-party services for security and reliability, ensuring that new or existing tools do not introduce vulnerabilities.</li>
+<li>Researchers review dependencies in software, datasets, and collaborative platforms, mitigating risks that could affect research outcomes or compliance obligations.</li>
+<li>Students contribute by following guidance on approved tools and services, reporting potential security issues, and understanding how third-party systems can affect the security of university resources.</li>
+<li>By integrating supply chain risk management into daily operations, the university strengthens its defenses, reduces the likelihood of disruptions from external sources, and ensures a safer, more resilient campus environment.</li>
+</ul>
+<h3 id="skill-development_6">Skill Development</h3>
+<ol>
+<li>Look up a supply chain incident called "XZ-Utils". How do you describe the difference between the concepts of "trust" and "security" with resepect to the XZ-Utils incident, OR, with respect to open source technology in general?</li>
+</ol>
+</div>
+<div class="section-resources">
+<h3 id="learning-resources_6">Learning Resources</h3>
+<h4 id="videos_6">Videos:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cSupply%20chain%20risk%20management&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;mfacet=rtype%2cinclude%2cvideos%2c1&amp;lang=en&amp;offset=0">McMaster Library</a></li>
+</ul>
+<h4 id="books_6">Books:</h4>
+<ul>
+<li><a href="https://www.oreilly.com/search/?q=Supply%20chain%20risk%20management&amp;type=book&amp;rows=100">O'Reilly</a></li>
+</ul>
+<h4 id="supplementary-resources_6">Supplementary Resources:</h4>
+<ul>
+<li>Canadian Centre for Cyber Security Resources</li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/protecting-your-organization-software-supply-chain-threats-itsm10071">Protecting Your Organization from Software Supply Chain Threats (ITSM.10.071)</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/cyber-supply-chain-approach-assessing-risk-itsap10070">Cyber-Supply Chain: An Approach to Assessing Risk (ITSAP.10.070)</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/cyber-threat-supply-chains">The Cyber Threat from Supply Chains</a></li>
+</ul>
+<h5 id="nist_1">NIST</h5>
+<ul>
+<li><a href="https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-software-1">NIST supply chain</a></li>
+<li><a href="https://csrc.nist.gov/pubs/sp/800/161/r1/final">NIST SP 800-161 Rev. 1: Cybersecurity Supply Chain Risk Management</a></li>
+</ul>
+<h5 id="us-government">US Government</h5>
+<ul>
+<li><a href="https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3617462/nsa-releases-recommendations-to-mitigate-software-supply-chain-risks/">US Government on SBOM</a></li>
+</ul>
+<h5 id="security-vendor-insights_5">Security Vendor Insights</h5>
+<ul>
+<li><a href="https://daily.dev/blog/xz-backdoor-the-full-story-in-one-place">XZ Utils sample article</a></li>
+<li><a href="https://www.cisco.com/site/us/en/learn/topics/security/what-is-supply-chain-risk-management-scrm.html">Cisco What is supply chain risk management (SCRM)?</a></li>
+<li><a href="https://www.fortinet.com/blog/ciso-collective/only-as-strong-as-the-weakest-link-supply-chain-security">Fortinet Only as Strong as the Weakest Link: Supply Chain Security</a></li>
+<li><a href="https://www.paloaltonetworks.com/resources/datasheets/unit-42-supply-chain-risk-assessment">Palo Alto Networks (Unit 42) Supply Chain Risk Assessment</a></li>
+<li><a href="https://www.cloudflare.com/learning/security/what-is-a-supply-chain-attack/">Cloudflare What is a supply chain attack?</a></li>
+</ul>
+<h5 id="mcmaster-university_4">McMaster University</h5>
+<ul>
+<li><a href="https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/System-Benchmarks.aspx">Configuration Benchmarks</a></li>
+</ul>
+</div>
+</div>
+<div class="section-grid">
+<h2 class="section-heading" id="security-awareness-and-training">Security Awareness and Training</h2>
+<div class="section-main">
+<h3 id="description_7">Description</h3>
+<p>This involves educating employees and stakeholders about security best practices, such as recognizing phishing scams and handling data securely. It's essential because human error is a leading cause of security incidents.</p>
+<h3 id="why-this-matters_7">Why This Matters</h3>
+<p>Security awareness and training are essential because human error is a leading cause of security incidents. By educating staff, researchers, and students on best practices, the university reduces the likelihood of breaches, data loss, and operational disruptions. Awareness and training empower the campus community to recognize risks, respond appropriately, and contribute to a secure digital environment.</p>
+<h3 id="why-this-is-important-for-university-operations_7">Why This Is Important for University Operations</h3>
+<p>University operations rely on staff following secure practices when managing systems, handling data, and interacting with digital tools. Security awareness and training help the university:</p>
+<ul>
+<li>Reduce incidents caused by phishing, malware, or misconfigured systems</li>
+<li>Ensure staff follow established policies and procedures for access, data handling, and reporting</li>
+<li>Promote consistent application of security practices across departments</li>
+<li>Build a culture of accountability and vigilance in daily workflows</li>
+<li>Training equips staff with the knowledge and confidence to identify risks, mitigate threats, and maintain operational stability.</li>
+</ul>
+<h3 id="why-this-matters-for-research-and-academic-work_7">Why This Matters for Research and Academic Work</h3>
+<p>Researchers handle sensitive data, collaborate internationally, and use specialized software and cloud services. Security awareness and training help researchers:</p>
+<ul>
+<li>Protect research data and intellectual property from accidental or malicious compromise</li>
+<li>Recognize potential threats when sharing data or using third-party tools</li>
+<li>Apply secure practices in lab systems, high-performance computing environments, and collaborative platforms</li>
+<li>Maintain compliance with funding, privacy, and ethical requirements</li>
+<li>Awareness ensures that research can proceed securely and reliably, protecting both participants and the integrity of the work.</li>
+</ul>
+<h3 id="how-this-applies-in-everyday-university-activities_6">How This Applies in Everyday University Activities</h3>
+<p>Security awareness and training shape the daily actions of staff, researchers, and students:</p>
+<ul>
+<li>Staff follow training to recognize phishing attempts, securely manage credentials, and respond to incidents appropriately.</li>
+<li>Researchers apply guidance for safe data handling, secure use of research platforms, and mitigation of risks in collaborative projects.</li>
+<li>Students learn to protect personal and academic information, follow acceptable-use policies, and adopt secure practices when using university systems and technology.</li>
+<li>By integrating awareness and training into everyday routines, the university fosters a proactive, knowledgeable community that can prevent security incidents and maintain trust in its digital environment.</li>
+</ul>
+<h3 id="skill-development_7">Skill Development</h3>
+<ol>
+<li>Imagine an office, team, or project. Can you describe the mix of security awareness and training materials required for their success? What are the steps required to identify and fill security skill training gaps?</li>
+</ol>
+</div>
+<div class="section-resources">
+<h3 id="learning-resources_7">Learning Resources</h3>
+<h4 id="videos_7">Videos:</h4>
+<ul>
+<li><a href="https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cSecurity%20awareness%20and%20training&amp;tab=OCULDiscoveryNetwork&amp;search_scope=OCULDiscoveryNetwork&amp;vid=01OCUL_MU:OMNI&amp;mfacet=rtype%2cinclude%2cvideos%2c1&amp;lang=en&amp;offset=0">McMaster Library</a></li>
+</ul>
+<h4 id="books_7">Books:</h4>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/advanced-persistent-training/9781484228357/">Advanced Persistent Training (O'Reilly)</a></li>
+</ul>
+<h4 id="supplementary-resources_7">Supplementary Resources:</h4>
+<h5 id="wikipedia_4">Wikipedia</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Internet_Security_Awareness_Training">Internet Security Awareness Training</a></li>
+</ul>
+<h5 id="canadian-centre-for-cyber-security-resources_4">Canadian Centre for Cyber Security Resources</h5>
+<ul>
+<li><a href="https://www.cyber.gc.ca/en/guidance/offer-tailored-cyber-security-training-your-employees-itsap10093">Offer tailored cyber security training to your employees (ITSAP.10.093</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/provide-employee-awareness-training">Provide employee awareness training</a></li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/how-protect-your-organization-insider-threats-itsap10003-0">How to protect your organization from insider threats (ITSAP.10.003)</a></li>
+<li><a href="https://www.getcybersafe.gc.ca/">GetCyberSafe</a></li>
+</ul>
+<h5 id="security-vendor-insights_6">Security Vendor Insights</h5>
+<ul>
+<li><a href="https://www.cisco.com/c/en/us/products/collateral/security/email-security/at-a-glance-c45-744492.html">Cisco Secure Awareness Training At-a-Glance</a></li>
+<li><a href="https://www.fortinet.com/training/security-awareness-training">Fortinet Security Awareness Training Service</a></li>
+<li><a href="https://www.paloaltonetworks.com/blog/2021/09/educating-the-workforce-with-cybersecurity-training/">Palo Alto Networks Educating the Workforce with Cybersecurity Training</a></li>
+<li><a href="https://blog.cloudflare.com/knowbe4-emailsecurity-integration/">Cloudflare + KnowBe4 Integration for Real-Time Coaching</a></li>
+</ul>
+<h5 id="mcmaster-university_5">McMaster University</h5>
+<ul>
+<li><a href="https://informationsecurity.mcmaster.ca/training/">McMaster Cyber Security Course</a></li>
+</ul>
+<h5 id="ontario">Ontario</h5>
+<ul>
+<li><a href="https://cybersecurityontario.ca/">Cyber Security Ontario</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

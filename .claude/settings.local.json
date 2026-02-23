@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"E:\\\\repos\\\\apd-1280\\\\docs\"\" 2>/dev/null || echo \"docs directory not found \")",
+      "Bash(set:*)",
+      "Bash(python -m mkdocs:*)",
+      "Bash(PYTHONUTF8=1 python:*)"
+    ]
+  }
+}

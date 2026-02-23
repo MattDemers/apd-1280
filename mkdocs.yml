@@ -2,3 +2,10 @@ site_name: My Docs
 
 theme:
   name: material
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+
+extra_css:
+  - stylesheets/three-column.css
