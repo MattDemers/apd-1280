@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+  - navigation
 ---
 
 # Learning: Security and Risk Management
