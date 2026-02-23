@@ -56,7 +56,7 @@
 .section-grid {
   display: grid;
   grid-template-columns: 1fr 300px;
-  gap: 2rem;
+  gap: 0.5rem;
   align-items: start;
   margin-bottom: 3rem;
 }
@@ -64,7 +64,7 @@
 /* h2 spans both columns */
 .section-heading {
   grid-column: 1 / -1;
-  margin-top: 0;
+  margin: 0;
 }
 
 /* ---------- Resources column ---------- */
@@ -123,6 +123,10 @@
     border-bottom: 1px solid var(--md-default-fg-color--lightest);
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .toc-left ul li {
+    margin: 0;
   }
 
   /* Sections keep two-column layout */
