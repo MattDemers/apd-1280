@@ -73,20 +73,20 @@ Security governance principles influence daily behavior across campus:
 
 #### Videos:
 
--   [McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20security%20governance&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&facet=rtype%2cinclude%2cvideos&lang=en&mode=basic&offset=0)
+[McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20security%20governance&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&facet=rtype%2cinclude%2cvideos&lang=en&mode=basic&offset=0)
 
 #### Books:
 
--   [McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?vid=01OCUL_MU:OMNI&tab=OCULDiscoveryNetwork&mode=basic&lang=en&displayMode=full&bulkSize=10&highlight=true&dum=true&query=any%2ccontains%2cinformation%20security%20governance&displayField=all&search_scope=OCULDiscoveryNetwork&pcAvailabiltyMode=true)
--   [O'Reilly](https://learning.oreilly.com/search/?q=Security%20governance&rows=100)
+[McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?vid=01OCUL_MU:OMNI&tab=OCULDiscoveryNetwork&mode=basic&lang=en&displayMode=full&bulkSize=10&highlight=true&dum=true&query=any%2ccontains%2cinformation%20security%20governance&displayField=all&search_scope=OCULDiscoveryNetwork&pcAvailabiltyMode=true)
+[O'Reilly](https://learning.oreilly.com/search/?q=Security%20governance&rows=100)
 
 #### Supplementary Resources:
 
 ##### Canadian Centre for Cyber Security Resources
 
--   [IT Security Risk Management: A Lifecycle Approach (ITSG-33)](https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33)
--   [Baseline Cyber Security Controls for Small and Medium Organizations](https://www.cyber.gc.ca/en/guidance/baseline-cyber-security-controls-small-and-medium-organizations)
--   [A Zero Trust Approach to Security Architecture (ITSM.10.008)](https://www.cyber.gc.ca/en/guidance/zero-trust-approach-security-architecture-itsm10008)
+[IT Security Risk Management: A Lifecycle Approach (ITSG-33)](https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33)
+[Baseline Cyber Security Controls for Small and Medium Organizations](https://www.cyber.gc.ca/en/guidance/baseline-cyber-security-controls-small-and-medium-organizations)
+[A Zero Trust Approach to Security Architecture (ITSM.10.008)](https://www.cyber.gc.ca/en/guidance/zero-trust-approach-security-architecture-itsm10008)
 
 ##### NIST
 
@@ -207,30 +207,30 @@ Cyber ethics is essential because decisions made in digital environments have re
 
 University operations rely on technologies that collect and process personal, academic, and operational data. Ethical decision making helps the university:
 
-- Respect privacy while maintaining strong security controls
-- Use monitoring, analytics, and AI tools responsibly
-- Apply security measures in a fair and transparent way
-- Build confidence in the university's digital environment
-- Cyber ethics supports staff as they navigate complex decisions about how security tools and practices impact the broader community.
+* Respect privacy while maintaining strong security controls
+* Use monitoring, analytics, and AI tools responsibly
+* Apply security measures in a fair and transparent way
+* Build confidence in the university's digital environment
+* Cyber ethics supports staff as they navigate complex decisions about how security tools and practices impact the broader community.
 
 ### Why This Matters for Research and Academic Work
 
-Modern research involves large datasets, artificial intelligence, automated decision-making, and international collaboration. Ethical considerations help research teams:
+Modern research involves large datasets, artificial intelligence, automated decision*making, and international collaboration. Ethical considerations help research teams:
 
-- Protect participants' data and identity
-- Identify and reduce algorithmic or dataset bias
-- Evaluate the impact of research outcomes on individuals or communities
-- Balance innovation with responsibility, consent, and transparency
-- Ethical reflection strengthens the integrity of research and helps ensure that technological advancements do not create unintended risks.
+* Protect participants' data and identity
+* Identify and reduce algorithmic or dataset bias
+* Evaluate the impact of research outcomes on individuals or communities
+* Balance innovation with responsibility, consent, and transparency
+* Ethical reflection strengthens the integrity of research and helps ensure that technological advancements do not create unintended risks.
 
 ### How This Applies in Everyday University Activities
 
 Cyber ethics influences the daily actions of staff, researchers, and students:
 
-- Staff make ethical choices when implementing monitoring tools, accessing sensitive information, or deciding how much visibility security systems should have into user activity.
-- Researchers consider ethics when collecting data, using AI models, collaborating internationally, or publishing findings that may influence society or vulnerable groups.
-- Students engage with ethical considerations through digital citizenship expectations, privacy choices, AI-assisted work, and understanding how their online behavior affects others.
-- By integrating ethical thinking into everyday decisions, the university promotes a secure, respectful, and trustworthy digital environment for the entire campus community.
+* Staff make ethical choices when implementing monitoring tools, accessing sensitive information, or deciding how much visibility security systems should have into user activity.
+* Researchers consider ethics when collecting data, using AI models, collaborating internationally, or publishing findings that may influence society or vulnerable groups.
+* Students engage with ethical considerations through digital citizenship expectations, privacy choices, AI*assisted work, and understanding how their online behavior affects others.
+* By integrating ethical thinking into everyday decisions, the university promotes a secure, respectful, and trustworthy digital environment for the entire campus community.
 
 ### Skill Development
 
@@ -344,32 +344,32 @@ By embedding continuity planning into daily operations, the university ensures r
 
 #### Videos:
 
-- [McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cBusiness%20continuity%20planning&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&mfacet=rtype%2cinclude%2cvideos%2c1&lang=en&offset=0)
-- [Business Continuity and Disaster Recovery (5hrs)](https://learning.oreilly.com/course/business-continuity-and/9781836203032/)
+[McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cBusiness%20continuity%20planning&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&mfacet=rtype%2cinclude%2cvideos%2c1&lang=en&offset=0)
+[Business Continuity and Disaster Recovery (5hrs)](https://learning.oreilly.com/course/business*continuity*and/9781836203032/)
 
 #### Books:
 
-- [McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20technology%20business%20continuity%20planning&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&lang=en&offset=0)
-- [O'Reilly](https://www.oreilly.com/search/?q=Business%20continuity%20planning&rows=100)
-- [CISSP Study Guide (Business Continuity Planning)](https://learning.oreilly.com/library/view/isc2-cissp-certified/9781394254699/c03.xhtml)
-- [Business Continuity for Dummies](https://learning.oreilly.com/library/view/business-continuity-for/9781118326800/)
-- [Business Continuity and Disaster Recovery Planning for IT Professionals, 2nd Edition](https://learning.oreilly.com/library/view/business-continuity-and/9780124105263/)
+[McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20technology%20business%20continuity%20planning&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&lang=en&offset=0)
+[O'Reilly](https://www.oreilly.com/search/?q=Business%20continuity%20planning&rows=100)
+[CISSP Study Guide (Business Continuity Planning)](https://learning.oreilly.com/library/view/isc2*cissp*certified/9781394254699/c03.xhtml)
+[Business Continuity for Dummies](https://learning.oreilly.com/library/view/business*continuity*for/9781118326800/)
+[Business Continuity and Disaster Recovery Planning for IT Professionals, 2nd Edition](https://learning.oreilly.com/library/view/business*continuity*and/9780124105263/)
 
 #### Supplementary Resources:
 
 ##### Wikipedia
 
-- [Business Continuity Planning](https://en.wikipedia.org/wiki/Business_continuity_planning)
-- Canadian Centre for Cyber Security Resources
-- [Developing Your IT Recovery Plan (ITSAP.40.004)](https://www.cyber.gc.ca/en/guidance/developing-your-it-recovery-plan-itsap40004)
-- [Baseline Cyber Security Controls for Small and Medium Organizations](https://www.cyber.gc.ca/en/guidance/baseline-cyber-security-controls-small-and-medium-organizations)
-- [Transitioning to a Cyber Resilience Approach (ITSAP.10.190)](https://www.cyber.gc.ca/en/guidance/transitioning-cyber-resilience-approach-itsap10190)
+[Business Continuity Planning](https://en.wikipedia.org/wiki/Business_continuity_planning)
+Canadian Centre for Cyber Security Resources
+[Developing Your IT Recovery Plan (ITSAP.40.004)](https://www.cyber.gc.ca/en/guidance/developing*your*it*recovery*plan*itsap40004)
+[Baseline Cyber Security Controls for Small and Medium Organizations](https://www.cyber.gc.ca/en/guidance/baseline*cyber*security*controls*small*and*medium*organizations)
+[Transitioning to a Cyber Resilience Approach (ITSAP.10.190)](https://www.cyber.gc.ca/en/guidance/transitioning*cyber*resilience*approach*itsap10190)
 
 ##### Security Vendor Insights
 
-- [Cisco Business Continuity](https://www.cisco.com/c/en/us/about/business-continuity.html)
-- [Cisco What Is Disaster Recovery?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-disaster-recovery.html)
-- [Fortinet Secure Remote Access for Your Workforce at Scale](https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-secure-remote-access-for-your-workforce-at-scale.pdf)
+[Cisco Business Continuity](https://www.cisco.com/c/en/us/about/business*continuity.html)
+[Cisco What Is Disaster Recovery?](https://www.cisco.com/site/us/en/learn/topics/security/what*is*disaster*recovery.html)
+[Fortinet Secure Remote Access for Your Workforce at Scale](https://www.fortinet.com/content/dam/fortinet/assets/solution*guides/sb*secure*remote*access*for*your*workforce*at*scale.pdf)
 
 </div>
 
@@ -390,30 +390,30 @@ Risk management is essential because potential threats ranging from cyberattacks
 ### Why This Is Important for University Operations
 University operations rely on numerous systems and services that support teaching, administration, student records, financial management, and campus infrastructure. Risk management helps the university:
 
-- Identify potential vulnerabilities before they become incidents
-- Analyze the impact and likelihood of risks to prioritize responses
-- Implement proactive controls to prevent disruptions
-- Respond effectively to incidents to minimize downtime and damage
-- By embedding risk management practices, staff can make informed decisions that protect institutional assets, ensure service reliability, and maintain operational efficiency.
+* Identify potential vulnerabilities before they become incidents
+* Analyze the impact and likelihood of risks to prioritize responses
+* Implement proactive controls to prevent disruptions
+* Respond effectively to incidents to minimize downtime and damage
+* By embedding risk management practices, staff can make informed decisions that protect institutional assets, ensure service reliability, and maintain operational efficiency.
 
 ### Why This Matters for Research and Academic Work
 
 Research activities often involve sensitive data, specialized equipment, and collaborations with external partners. Risk management supports researchers by:
 
-- Assessing threats to datasets, experiments, and intellectual property
-- Evaluating the impact of new technologies, software, or research tools
-- Mitigating risks that could delay projects, compromise results, or violate compliance requirements
-- Guiding decisions about secure data sharing and collaborative practices
-- Effective risk management ensures that research can continue safely, even in the face of technical, operational, or environmental challenges.
+* Assessing threats to datasets, experiments, and intellectual property
+* Evaluating the impact of new technologies, software, or research tools
+* Mitigating risks that could delay projects, compromise results, or violate compliance requirements
+* Guiding decisions about secure data sharing and collaborative practices
+* Effective risk management ensures that research can continue safely, even in the face of technical, operational, or environmental challenges.
 
 ### How This Applies in Everyday University Activities
 
 Risk management influences the daily responsibilities of staff, researchers, and students:
 
-- Staff evaluate systems and processes to identify vulnerabilities, implement safeguards, and respond to incidents in ways that minimize impact on university operations.
-- Researchers assess risks when using new technologies, sharing data, or conducting experiments, ensuring that ethical, legal, and operational considerations are addressed.
-- Students contribute by following secure practices, reporting potential issues, and understanding the risks associated with their use of university systems and digital resources.
-- By integrating risk management into daily activities, the university reduces the likelihood and impact of disruptions, enabling staff, researchers, and students to work safely, effectively, and confidently across all campus operations.
+* Staff evaluate systems and processes to identify vulnerabilities, implement safeguards, and respond to incidents in ways that minimize impact on university operations.
+* Researchers assess risks when using new technologies, sharing data, or conducting experiments, ensuring that ethical, legal, and operational considerations are addressed.
+* Students contribute by following secure practices, reporting potential issues, and understanding the risks associated with their use of university systems and digital resources.
+* By integrating risk management into daily activities, the university reduces the likelihood and impact of disruptions, enabling staff, researchers, and students to work safely, effectively, and confidently across all campus operations.
 
 ### Skill Development
 
@@ -428,42 +428,42 @@ Risk management influences the daily responsibilities of staff, researchers, and
 
 #### Videos:
 
-- [McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cRisk%20management%20concepts&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&mfacet=rtype%2cinclude%2cvideos%2c1&lang=en&offset=0)
-- [Cybersecurity Risk Management: Identify, Analyze, and Mitigate Threats to Inform Business Decisions (5hrs)](https://learning.oreilly.com/course/cybersecurity-risk-management/0636920973287/)
-- [Risk Management for Cyber Security Managers (2hrs)](https://learning.oreilly.com/course/risk-management-for/9781837639878/)
-- [NIST Cybersecurity and Risk Management Frameworks (2hrs)](https://learning.oreilly.com/course/nist-cybersecurity-and/9781835886502/)
+[McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cRisk%20management%20concepts&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&mfacet=rtype%2cinclude%2cvideos%2c1&lang=en&offset=0)
+[Cybersecurity Risk Management: Identify, Analyze, and Mitigate Threats to Inform Business Decisions (5hrs)](https://learning.oreilly.com/course/cybersecurity-risk-management/0636920973287/)
+[Risk Management for Cyber Security Managers (2hrs)](https://learning.oreilly.com/course/risk-management-for/9781837639878/)
+[NIST Cybersecurity and Risk Management Frameworks (2hrs)](https://learning.oreilly.com/course/nist-cybersecurity-and/9781835886502/)
 
 #### Books:
 
-- [McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2crisk%20management%20IT%20security&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&lang=en&offset=0)
-- [O'Reilly](https://www.oreilly.com/search/?q=Risk%20management%20concepts&type=book&rows=100)
-- [Mastering Risk Management](https://learning.oreilly.com/library/view/mastering-risk-management/9781292331300/)
-- [Cybersecurity Risk Management](https://learning.oreilly.com/library/view/cybersecurity-risk-management/9781119816287/)
-- [The Essentials of Risk Management, Third Edition, 3rd Edition](https://learning.oreilly.com/library/view/the-essentials-of/9781264258871/)
-- [Building a Cyber Risk Management Program](https://learning.oreilly.com/library/view/building-a-cyber/9781098147785/)
-- [Unveiling the NIST Risk Management Framework (RMF)](https://learning.oreilly.com/library/view/unveiling-the-nist/9781835089842/)
+[McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2crisk%20management%20IT%20security&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&lang=en&offset=0)
+[O'Reilly](https://www.oreilly.com/search/?q=Risk%20management%20concepts&type=book&rows=100)
+[Mastering Risk Management](https://learning.oreilly.com/library/view/mastering-risk-management/9781292331300/)
+[Cybersecurity Risk Management](https://learning.oreilly.com/library/view/cybersecurity-risk-management/9781119816287/)
+[The Essentials of Risk Management, Third Edition, 3rd Edition](https://learning.oreilly.com/library/view/the-essentials-of/9781264258871/)
+[Building a Cyber Risk Management Program](https://learning.oreilly.com/library/view/building-a-cyber/9781098147785/)
+[Unveiling the NIST Risk Management Framework (RMF)](https://learning.oreilly.com/library/view/unveiling-the-nist/9781835089842/)
 
 #### Supplementary Resources:
 
 ##### Wikipedia
 
-- [Risk Management](https://en.wikipedia.org/wiki/Risk_management)
+[Risk Management](https://en.wikipedia.org/wiki/Risk_management)
 
 ##### Canadian Centre for Cyber Security Resources
-- [IT Security Risk Management: A Lifecycle Approach (ITSG-33)](https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33)
-- [Cloud Security Risk Management (ITSP.50.062)](https://www.cyber.gc.ca/en/guidance/cloud-security-risk-management-itsm50062)
-- [Cyber-Supply Chain: An Approach to Assessing Risk (ITSAP.10.070)](https://www.cyber.gc.ca/en/guidance/cyber-supply-chain-approach-assessing-risk-itsap10070)
+[IT Security Risk Management: A Lifecycle Approach (ITSG-33)](https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33)
+[Cloud Security Risk Management (ITSP.50.062)](https://www.cyber.gc.ca/en/guidance/cloud-security-risk-management-itsm50062)
+[Cyber-Supply Chain: An Approach to Assessing Risk (ITSAP.10.070)](https://www.cyber.gc.ca/en/guidance/cyber-supply-chain-approach-assessing-risk-itsap10070)
 
 ##### Security Vendor Insights
 
-- [Cisco What Is Risk Management?](https://www.cisco.com/c/en/us/products/security/what-is-risk-management.html)
-- [Cisco Secure and the NIST Cybersecurity Framework](https://www.cisco.com/c/dam/en/us/products/collateral/security/nist-cybersecurity.pdf)
-- [Fortinet Cyber Risk Management Lessons from the Battlefield](https://www.fortinet.com/blog/industry-trends/cyber-risk-management-lessons-from-the-battlefield)
-- [Palo Alto Networks Unit 42 Cyber Risk Management Services](https://www.paloaltonetworks.com/resources/datasheets/unit42-cyber-risk-management)
+[Cisco What Is Risk Management?](https://www.cisco.com/c/en/us/products/security/what-is-risk-management.html)
+[Cisco Secure and the NIST Cybersecurity Framework](https://www.cisco.com/c/dam/en/us/products/collateral/security/nist-cybersecurity.pdf)
+[Fortinet Cyber Risk Management Lessons from the Battlefield](https://www.fortinet.com/blog/industry-trends/cyber-risk-management-lessons-from-the-battlefield)
+[Palo Alto Networks Unit 42 Cyber Risk Management Services](https://www.paloaltonetworks.com/resources/datasheets/unit42-cyber-risk-management)
 
 ##### McMaster University
 
-- [Information Security Assessments (APD-1280)](https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/Information-Security-Assessments.aspx)
+[Information Security Assessments (APD-1280)](https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/Information-Security-Assessments.aspx)
 
 </div>
 
@@ -514,40 +514,40 @@ This approach ensures that research can proceed safely and reliably, even when c
 
 #### Videos:
 
-- [McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cThreat%20modeling&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&mfacet=rtype%2cinclude%2cvideos%2c1&lang=en&offset=0)
-- [Threat Modeling with Owasp Threat Dragon & Risk Rating a Vulnerability](https://learning.oreilly.com/videos/threat-modeling-with/10000MNHV202248/10000MNHV202248-aaaaa/)
-- [Threat Modeling Fundamentals: Debug Your Security Design through Whiteboard Hacking](https://learning.oreilly.com/course/threat-modeling-fundamentals/0790145436108/)
+[McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cThreat%20modeling&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&mfacet=rtype%2cinclude%2cvideos%2c1&lang=en&offset=0)
+[Threat Modeling with Owasp Threat Dragon & Risk Rating a Vulnerability](https://learning.oreilly.com/videos/threat-modeling-with/10000MNHV202248/10000MNHV202248-aaaaa/)
+[Threat Modeling Fundamentals: Debug Your Security Design through Whiteboard Hacking](https://learning.oreilly.com/course/threat-modeling-fundamentals/0790145436108/)
 
 #### Books:
 
-- [McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20security%20threat%20modeling&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI)
-- [O'Reilly](https://www.oreilly.com/search/?q=Threat%20modeling&type=book&rows=100)
-- [Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis](https://learning.oreilly.com/library/view/risk-centric-threat/9780470500965/)
-- [Threat Modeling](https://learning.oreilly.com/library/view/threat-modeling/9781118810057/)
-- [Threat Modeling: A practical guide for development teams](https://learning.oreilly.com/library/view/threat-modeling/9781492056546/)
+[McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cinformation%20security%20threat%20modeling&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI)
+[O'Reilly](https://www.oreilly.com/search/?q=Threat%20modeling&type=book&rows=100)
+[Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis](https://learning.oreilly.com/library/view/risk-centric-threat/9780470500965/)
+[Threat Modeling](https://learning.oreilly.com/library/view/threat-modeling/9781118810057/)
+[Threat Modeling: A practical guide for development teams](https://learning.oreilly.com/library/view/threat-modeling/9781492056546/)
 
 #### Supplementary Resources:
 
 ##### Wikipedia
 
-- [Threat Model](https://en.wikipedia.org/wiki/Threat_model)
+[Threat Model](https://en.wikipedia.org/wiki/Threat_model)
 
 ##### Canadian Centre for Cyber Security Resources
 
-- [Harmonized Threat and Risk Assessment Methodology (TRA-1)](https://www.cyber.gc.ca/en/tools-services/harmonized-tra-methodology)
-- [Defending Against Data Exfiltration Threats (ITSM.40.110)](https://www.cyber.gc.ca/en/guidance/defending-against-data-exfiltration-threats-itsm40110)
-- [The Threat from Large Language Model Text Generators](https://www.cyber.gc.ca/en/guidance/threat-large-language-model-text-generators)
+[Harmonized Threat and Risk Assessment Methodology (TRA-1)](https://www.cyber.gc.ca/en/tools-services/harmonized-tra-methodology)
+[Defending Against Data Exfiltration Threats (ITSM.40.110)](https://www.cyber.gc.ca/en/guidance/defending-against-data-exfiltration-threats-itsm40110)
+[The Threat from Large Language Model Text Generators](https://www.cyber.gc.ca/en/guidance/threat-large-language-model-text-generators)
 
 ##### Security Vendor Insights
 
-- [Cisco What Is Threat Modeling?](https://www.cisco.com/c/en/us/products/security/what-is-threat-modeling.html)
-- [Cisco The Need for Continuous and Dynamic Threat Modeling](https://blogs.cisco.com/security/the-need-for-continuous-and-dynamic-threat-modeling)
-- [Threat Modeling - OWASP Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
-- [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
+[Cisco What Is Threat Modeling?](https://www.cisco.com/c/en/us/products/security/what-is-threat-modeling.html)
+[Cisco The Need for Continuous and Dynamic Threat Modeling](https://blogs.cisco.com/security/the-need-for-continuous-and-dynamic-threat-modeling)
+[Threat Modeling OWASP Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
+[OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
 
 ##### McMaster University
 
-- [APD-1280 - Security Assessments](https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/Information-Security-Assessments.aspx)
+[APD-1280 Security Assessments](https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/Information-Security-Assessments.aspx)
 
 </div>
 
@@ -608,39 +608,39 @@ Supply chain risk management shapes the daily responsibilities of staff, researc
 
 #### Videos:
 
-- [McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cSupply%20chain%20risk%20management&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&mfacet=rtype%2cinclude%2cvideos%2c1&lang=en&offset=0)
+[McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cSupply%20chain%20risk%20management&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&mfacet=rtype%2cinclude%2cvideos%2c1&lang=en&offset=0)
 
 #### Books:
 
-- [O'Reilly](https://www.oreilly.com/search/?q=Supply%20chain%20risk%20management&type=book&rows=100)
+[O'Reilly](https://www.oreilly.com/search/?q=Supply%20chain%20risk%20management&type=book&rows=100)
 
 #### Supplementary Resources:
 
-- Canadian Centre for Cyber Security Resources
-- [Protecting Your Organization from Software Supply Chain Threats (ITSM.10.071)](https://www.cyber.gc.ca/en/guidance/protecting-your-organization-software-supply-chain-threats-itsm10071)
-- [Cyber-Supply Chain: An Approach to Assessing Risk (ITSAP.10.070)](https://www.cyber.gc.ca/en/guidance/cyber-supply-chain-approach-assessing-risk-itsap10070)
-- [The Cyber Threat from Supply Chains](https://www.cyber.gc.ca/en/guidance/cyber-threat-supply-chains)
+Canadian Centre for Cyber Security Resources
+[Protecting Your Organization from Software Supply Chain Threats (ITSM.10.071)](https://www.cyber.gc.ca/en/guidance/protecting-your-organization-software-supply-chain-threats-itsm10071)
+[Cyber-Supply Chain: An Approach to Assessing Risk (ITSAP.10.070)](https://www.cyber.gc.ca/en/guidance/cyber-supply-chain-approach-assessing-risk-itsap10070)
+[The Cyber Threat from Supply Chains](https://www.cyber.gc.ca/en/guidance/cyber-threat-supply-chains)
 
 ##### NIST
 
-- [NIST supply chain](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-software-1)
-- [NIST SP 800-161 Rev. 1: Cybersecurity Supply Chain Risk Management](https://csrc.nist.gov/pubs/sp/800/161/r1/final)
+[NIST supply chain](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-software-1)
+[NIST SP 800-161 Rev. 1: Cybersecurity Supply Chain Risk Management](https://csrc.nist.gov/pubs/sp/800/161/r1/final)
 
 ##### US Government
 
-- [US Government on SBOM](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3617462/nsa-releases-recommendations-to-mitigate-software-supply-chain-risks/)
+[US Government on SBOM](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3617462/nsa-releases-recommendations-to-mitigate-software-supply-chain-risks/)
 
 ##### Security Vendor Insights
 
-- [XZ Utils sample article](https://daily.dev/blog/xz-backdoor-the-full-story-in-one-place)
-- [Cisco What is supply chain risk management (SCRM)?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-supply-chain-risk-management-scrm.html)
-- [Fortinet Only as Strong as the Weakest Link: Supply Chain Security](https://www.fortinet.com/blog/ciso-collective/only-as-strong-as-the-weakest-link-supply-chain-security)
-- [Palo Alto Networks (Unit 42) Supply Chain Risk Assessment](https://www.paloaltonetworks.com/resources/datasheets/unit-42-supply-chain-risk-assessment)
-- [Cloudflare What is a supply chain attack?](https://www.cloudflare.com/learning/security/what-is-a-supply-chain-attack/)
+[XZ Utils sample article](https://daily.dev/blog/xz-backdoor-the-full-story-in-one-place)
+[Cisco What is supply chain risk management (SCRM)?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-supply-chain-risk-management-scrm.html)
+[Fortinet Only as Strong as the Weakest Link: Supply Chain Security](https://www.fortinet.com/blog/ciso-collective/only-as-strong-as-the-weakest-link-supply-chain-security)
+[Palo Alto Networks (Unit 42) Supply Chain Risk Assessment](https://www.paloaltonetworks.com/resources/datasheets/unit-42-supply-chain-risk-assessment)
+[Cloudflare What is a supply chain attack?](https://www.cloudflare.com/learning/security/what-is-a-supply-chain-attack/)
 
 ##### McMaster University
 
-- [Configuration Benchmarks](https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/System-Benchmarks.aspx)
+[Configuration Benchmarks](https://mcmasteru365.sharepoint.com/sites/APD-1280/SitePages/System-Benchmarks.aspx)
 
 </div>
 
@@ -701,39 +701,39 @@ Security awareness and training shape the daily actions of staff, researchers, a
 
 #### Videos:
 
- -  [McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cSecurity%20awareness%20and%20training&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&mfacet=rtype%2cinclude%2cvideos%2c1&lang=en&offset=0)
+[McMaster Library](https://mcmaster.primo.exlibrisgroup.com/discovery/search?query=any%2ccontains%2cSecurity%20awareness%20and%20training&tab=OCULDiscoveryNetwork&search_scope=OCULDiscoveryNetwork&vid=01OCUL_MU:OMNI&mfacet=rtype%2cinclude%2cvideos%2c1&lang=en&offset=0)
 
 #### Books:
 
- -  [Advanced Persistent Training (O'Reilly)](https://www.oreilly.com/library/view/advanced-persistent-training/9781484228357/)
+[Advanced Persistent Training (O'Reilly)](https://www.oreilly.com/library/view/advanced-persistent-training/9781484228357/)
 
 #### Supplementary Resources:
 
 #####  Wikipedia
 
--  [Internet Security Awareness Training](https://en.wikipedia.org/wiki/Internet_Security_Awareness_Training)
+[Internet Security Awareness Training](https://en.wikipedia.org/wiki/Internet_Security_Awareness_Training)
 
 ##### Canadian Centre for Cyber Security Resources
 
--  [Offer tailored cyber security training to your employees (ITSAP.10.093](https://www.cyber.gc.ca/en/guidance/offer-tailored-cyber-security-training-your-employees-itsap10093)
--  [Provide employee awareness training](https://www.cyber.gc.ca/en/guidance/provide-employee-awareness-training)
--  [How to protect your organization from insider threats (ITSAP.10.003)](https://www.cyber.gc.ca/en/guidance/how-protect-your-organization-insider-threats-itsap10003-0)
--  [GetCyberSafe](https://www.getcybersafe.gc.ca/)
+[Offer tailored cyber security training to your employees (ITSAP.10.093](https://www.cyber.gc.ca/en/guidance/offer-tailored-cyber-security-training-your-employees-itsap10093)
+[Provide employee awareness training](https://www.cyber.gc.ca/en/guidance/provide-employee-awareness-training)
+[How to protect your organization from insider threats (ITSAP.10.003)](https://www.cyber.gc.ca/en/guidance/how-protect-your-organization-insider-threats-itsap10003-0)
+[GetCyberSafe](https://www.getcybersafe.gc.ca/)
 
 ##### Security Vendor Insights
 
--  [Cisco Secure Awareness Training At-a-Glance](https://www.cisco.com/c/en/us/products/collateral/security/email-security/at-a-glance-c45-744492.html)
--  [Fortinet Security Awareness Training Service](https://www.fortinet.com/training/security-awareness-training)
--  [Palo Alto Networks Educating the Workforce with Cybersecurity Training](https://www.paloaltonetworks.com/blog/2021/09/educating-the-workforce-with-cybersecurity-training/)
--  [Cloudflare + KnowBe4 Integration for Real-Time Coaching](https://blog.cloudflare.com/knowbe4-emailsecurity-integration/)
+[Cisco Secure Awareness Training At-a-Glance](https://www.cisco.com/c/en/us/products/collateral/security/email-security/at-a-glance-c45-744492.html)
+[Fortinet Security Awareness Training Service](https://www.fortinet.com/training/security-awareness-training)
+[Palo Alto Networks Educating the Workforce with Cybersecurity Training](https://www.paloaltonetworks.com/blog/2021/09/educating-the-workforce-with-cybersecurity-training/)
+[Cloudflare + KnowBe4 Integration for Real-Time Coaching](https://blog.cloudflare.com/knowbe4-emailsecurity-integration/)
 
 ##### McMaster University
 
--  [McMaster Cyber Security Course](https://informationsecurity.mcmaster.ca/training/)
+[McMaster Cyber Security Course](https://informationsecurity.mcmaster.ca/training/)
 
 ##### Ontario
 
--  [Cyber Security Ontario](https://cybersecurityontario.ca/)
+[Cyber Security Ontario](https://cybersecurityontario.ca/)
 
 </div>
 
