@@ -5,20 +5,23 @@ on:
       - main
       - master
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4 # 👈 UPDATED to v4
         with:
-          key: ${{ github.ref }}
+          key: mkdocs-material-${{ github.sha }}
           path: .cache
       - run: pip install mkdocs-material
       - run: mkdocs build
