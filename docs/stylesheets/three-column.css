@@ -72,6 +72,12 @@
   margin: 0;
 }
 
+/* ---------- Main content column ---------- */
+
+.section-main h3 {
+  margin-top: 0;
+}
+
 /* ---------- Resources column ---------- */
 
 .section-resources {
